@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    android:background="@color/colorAccent"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="900dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/girl_1"
+        android:id="@+id/img_header"
+        />
+
+  <TextView
+      android:text="StephenCurry"
+      android:layout_margin="5dp"
+      android:textSize="20sp"
+      android:padding="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/img_header"
+      />
+
+</RelativeLayout>

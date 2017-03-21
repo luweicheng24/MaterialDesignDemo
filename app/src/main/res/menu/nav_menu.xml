@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+       <item
+           android:id="@+id/first"
+           android:icon="@drawable/chiocn_2x01pre"
+           android:title="优惠劵"
+           >
+       </item>
+        <item
+            android:id="@+id/second"
+            android:icon="@drawable/chiocn_2x02pre"
+            android:title="优惠劵"
+            >
+        </item>
+        <item
+            android:id="@+id/three"
+            android:icon="@drawable/chiocn_2x03pre"
+            android:title="优惠劵"
+            >
+        </item>
+        <item
+            android:id="@+id/four"
+            android:icon="@drawable/chiocn_2x04pre"
+            android:title="添加"
+            >
+        </item>
+        <item
+            android:id="@+id/five"
+            android:icon="@drawable/chiocn_2x05pre"
+            android:title="扫一扫"
+            >
+        </item>
+
+
+    </group>
+</menu>
